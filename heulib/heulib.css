@@ -1,0 +1,160 @@
+body{
+	font:14px/1.5 Helvetica,Arial,sans-serif;
+	background-color: #f6f5f1;
+}
+.header{
+	overflow: hidden;
+	padding: 50px 0;
+}
+h1 {
+	background: url(header.jpg) no-repeat left center;
+	height: 65px;
+	line-height: 999em;
+}
+h2{
+	font-size: 18px;
+	height: 60px;
+	line-height: 60px;
+}
+a{
+	text-decoration: none;
+	color: #542082;
+}
+a:hover {
+	color: #888;
+}
+.inner{
+	width: 950px;
+	margin: 0 auto;
+}
+.main {
+	margin-bottom: 100px;
+	overflow: hidden;
+	*zoom: 1;
+}
+.content{
+	float: left;
+	width: 580px;
+	overflow: hidden;
+	*zoom: 1;
+}
+.sidebar {
+	float: right;
+	width: 320px;
+}
+.search{
+	margin-bottom: 30px;
+	overflow: hidden;
+	*zoom: 1;
+}
+.search-nav {
+	float: left;
+	width: 100px;
+	border: 2px solid #ececea;
+	border-right: none;
+	position: relative;
+	right: -2px;
+}
+.search-nav-link {
+	display: inline-block;
+	width: 90px;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 10px;
+	color: #32b19c;
+	background-color: #d9efec;
+}
+.search-content{
+	margin-left: 102px;
+	height: 120px;
+	border: 2px solid #ececea;
+	background-color: #fff;
+	padding-left: 40px;
+}
+select{
+	border: none;
+	border: 1px solid #ccc;
+	height: 30px;
+}
+.details{
+	width:160px;
+	height: 25px;
+}
+.search-button{
+	height: 30px;
+	width: 60px;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+}
+.search-content1 , .search-content2 {
+	display: none;
+}
+.current-search-nav-link{
+	background-color:#fff;
+}
+.sidebar-item{
+	float: right;
+	width: 300px;
+	border: 2px solid #ececea;
+	margin-bottom:40px;
+	background-color: #fff;
+	padding-left: 30px;
+	padding-right: 10px;
+}
+.login label{
+	font-size: 16px;
+	display: inline-block;
+	width: 50px;
+	padding-bottom: 10px;
+}
+.login-item {
+	font-size: 16px;
+	width: 200px;
+	margin-bottom: 10px;
+	height: 30px;
+}
+
+.noPassword{
+	margin-left: 65px;
+}
+
+.landing{
+	height: 30px;
+	width: 60px;
+	border-radius: 8px;
+	margin: 10px 0px 20px 62px;
+	border: none;
+	cursor:pointer;
+}
+.nav{
+	border: 2px solid #ececea;
+	overflow: hidden;
+	padding-left: 20px;
+	background-color: #fff;
+	padding-bottom: 50px;
+}
+
+.nav a{
+	display: block;
+	margin-bottom: 12px;
+}
+.survey, .serve, .resource{
+    float: left;
+    margin-right: 50px;
+}
+.interaction{
+	float: left;
+}
+.information ul{
+	list-style: circle;
+	margin-left: 20px;
+}
+.information li{
+	margin-bottom: 13px;
+}
+.footer{
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 12px;
+}
